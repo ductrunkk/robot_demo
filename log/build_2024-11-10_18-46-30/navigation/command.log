@@ -1,0 +1,2 @@
+Invoking command in '/home/ductrung/bumperbot_ws/build/navigation': /usr/bin/cmake /home/ductrung/bumperbot_ws/src/navigation/navigation -DCMAKE_INSTALL_PREFIX=/home/ductrung/bumperbot_ws/install/navigation
+Invoked command in '/home/ductrung/bumperbot_ws/build/navigation' returned '1': /usr/bin/cmake /home/ductrung/bumperbot_ws/src/navigation/navigation -DCMAKE_INSTALL_PREFIX=/home/ductrung/bumperbot_ws/install/navigation

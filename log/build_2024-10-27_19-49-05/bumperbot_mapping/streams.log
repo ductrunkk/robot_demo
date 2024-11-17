@@ -1,0 +1,39 @@
+[0.046s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_mapping -- -j4 -l4
+[0.123s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.431s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.576s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.588s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.646s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.704s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.787s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.987s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.000s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.260s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.297s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.333s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.352s] -- Looking for pthread.h
+[1.618s] -- Looking for pthread.h - found
+[1.619s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.751s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.751s] -- Found Threads: TRUE  
+[1.856s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.858s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.918s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.946s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.314s] -- Configuring done
+[2.317s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[2.317s]   Cannot find source file:
+[2.317s] 
+[2.317s]     src/mapping_with_known_poses.cpp
+[2.317s] 
+[2.317s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[2.317s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[2.317s] 
+[2.317s] [0m
+[2.319s] [31mCMake Error at CMakeLists.txt:20 (add_executable):
+[2.319s]   No SOURCES given to target: mapping_with_known_poses
+[2.319s] 
+[2.319s] [0m
+[2.319s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m
+[2.338s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[2.343s] Invoked command in '/home/ductrung/bumperbot_ws/build/bumperbot_mapping' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_mapping -- -j4 -l4

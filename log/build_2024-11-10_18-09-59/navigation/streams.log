@@ -1,0 +1,32 @@
+[0.025s] Invoking command in '/home/ductrung/bumperbot_ws/build/navigation': /usr/bin/cmake /home/ductrung/bumperbot_ws/src/navigation/navigation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ductrung/bumperbot_ws/install/navigation
+[0.066s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.283s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.569s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.578s] [33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.578s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[0.578s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[0.578s]   set the policy and suppress this warning.
+[0.578s] 
+[0.578s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[0.579s]   Since the policy is not set the OLD behavior will be used.
+[0.579s] Call Stack (most recent call first):
+[0.579s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)
+[0.579s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.579s]   CMakeLists.txt:11 (find_package)
+[0.579s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.579s] [0m
+[0.579s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[0.579s]   if given arguments:
+[0.579s] 
+[0.579s]     "NOT" "element" "IN_LIST" "rclcpp_INCLUDE_DIRS"
+[0.579s] 
+[0.579s]   Unknown arguments specified
+[0.579s] Call Stack (most recent call first):
+[0.579s]   /opt/ros/humble/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)
+[0.579s]   /opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[0.579s]   CMakeLists.txt:11 (find_package)
+[0.579s] 
+[0.579s] [0m
+[0.579s] -- Configuring incomplete, errors occurred!
+[0.579s] See also "/home/ductrung/bumperbot_ws/build/navigation/CMakeFiles/CMakeOutput.log".
+[0.642s] Invoked command in '/home/ductrung/bumperbot_ws/build/navigation' returned '1': /usr/bin/cmake /home/ductrung/bumperbot_ws/src/navigation/navigation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ductrung/bumperbot_ws/install/navigation

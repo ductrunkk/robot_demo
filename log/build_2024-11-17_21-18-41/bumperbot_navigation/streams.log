@@ -1,0 +1,56 @@
+[0.036s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_navigation': /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_navigation -- -j4 -l4
+[0.084s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.357s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.532s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.538s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.558s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.682s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.686s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.903s] -- Found nav2_costmap_2d: 1.1.16 (/opt/ros/humble/share/nav2_costmap_2d/cmake)
+[1.096s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.351s] Error parsing '/home/ductrung/bumperbot_ws/src/bumperbot_navigation/package.xml':
+[1.442s] Traceback (most recent call last):
+[1.442s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 610, in parse_package_string
+[1.442s]     root = dom.parseString(data)
+[1.442s]   File "/usr/lib/python3.10/xml/dom/minidom.py", line 2000, in parseString
+[1.442s]     return expatbuilder.parseString(string)
+[1.442s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 925, in parseString
+[1.447s]     return builder.parseString(string)
+[1.447s]   File "/usr/lib/python3.10/xml/dom/expatbuilder.py", line 223, in parseString
+[1.447s]     parser.Parse(string, True)
+[1.447s] xml.parsers.expat.ExpatError: no element found: line 29, column 0
+[1.447s] 
+[1.447s] During handling of the above exception, another exception occurred:
+[1.447s] 
+[1.447s] Traceback (most recent call last):
+[1.447s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.447s]     main()
+[1.447s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.447s]     raise e
+[1.447s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.448s]     package = parse_package_string(
+[1.448s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 612, in parse_package_string
+[1.448s]     raise InvalidPackage('The manifest contains invalid XML:\n%s' % ex, filename)
+[1.448s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ductrung/bumperbot_ws/src/bumperbot_navigation/package.xml':
+[1.448s] The manifest contains invalid XML:
+[1.448s] no element found: line 29, column 0
+[1.491s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.491s]   execute_process(/usr/bin/python3
+[1.497s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.498s]   /home/ductrung/bumperbot_ws/src/bumperbot_navigation/package.xml
+[1.498s]   /home/ductrung/bumperbot_ws/build/bumperbot_navigation/ament_cmake_core/package.cmake)
+[1.499s]   returned error code 1
+[1.499s] Call Stack (most recent call first):
+[1.499s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.499s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:60 (ament_package_xml)
+[1.499s]   /opt/ros/humble/share/ament_cmake_python/cmake/ament_python_install_package.cmake:39 (_ament_cmake_python_install_package)
+[1.499s]   CMakeLists.txt:17 (ament_python_install_package)
+[1.499s] 
+[1.499s] [0m
+[1.515s] -- Configuring incomplete, errors occurred!
+[1.515s] See also "/home/ductrung/bumperbot_ws/build/bumperbot_navigation/CMakeFiles/CMakeOutput.log".
+[1.515s] gmake: *** [Makefile:138: cmake_check_build_system] Error 1
+[1.522s] Invoked command in '/home/ductrung/bumperbot_ws/build/bumperbot_navigation' returned '2': /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_navigation -- -j4 -l4

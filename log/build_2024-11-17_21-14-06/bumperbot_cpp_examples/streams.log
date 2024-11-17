@@ -1,0 +1,9 @@
+[0.942s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:/home/ductrung/ros2_ws/install/my_robot_bringup:/home/ductrung/ros2_ws/install/my_robot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[1.143s] [ 12%] Built target simple_publisher
+[1.173s] [ 25%] Built target simple_turtlesim_kinematics
+[1.204s] [ 37%] Built target simple_service_server
+[1.235s] [ 50%] Built target simple_service_client
+[1.292s] [ 62%] Built target simple_tf_kinematics
+[1.344s] [ 75%] Built target simple_lifecycle_node
+[1.403s] [ 87%] Built target simple_parameter
+[1.451s] [100%] Built target simple_subscriber

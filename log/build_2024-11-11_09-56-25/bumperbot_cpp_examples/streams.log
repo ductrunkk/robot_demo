@@ -1,0 +1,40 @@
+[0.043s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:/home/ductrung/ros2_ws/install/my_robot_bringup:/home/ductrung/ros2_ws/install/my_robot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.225s] [ 12%] Built target simple_publisher
+[0.226s] [ 25%] Built target simple_subscriber
+[0.245s] [ 37%] Built target simple_parameter
+[0.247s] [ 50%] Built target simple_turtlesim_kinematics
+[0.346s] [ 75%] Built target simple_lifecycle_node
+[0.346s] [ 75%] Built target simple_service_client
+[0.362s] [ 87%] Built target simple_tf_kinematics
+[0.369s] [100%] Built target simple_service_server
+[0.645s] Invoked command in '/home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:/home/ductrung/ros2_ws/install/my_robot_bringup:/home/ductrung/ros2_ws/install/my_robot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.786s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:/home/ductrung/ros2_ws/install/my_robot_bringup:/home/ductrung/ros2_ws/install/my_robot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples
+[0.796s] -- Install configuration: ""
+[0.800s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/include/include
+[0.801s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[0.801s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[0.801s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[0.806s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[0.808s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[0.810s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[0.812s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[0.813s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[0.815s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[0.817s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[0.820s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[0.825s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[0.846s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[0.846s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[0.846s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[0.846s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[0.846s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[0.846s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[0.847s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[0.847s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[0.847s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[0.847s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[0.848s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[0.849s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[0.849s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[0.849s] -- Up-to-date: /home/ductrung/bumperbot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[0.853s] Invoked command in '/home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs:/home/ductrung/ros2_ws/install/my_robot_bringup:/home/ductrung/ros2_ws/install/my_robot_description:/opt/ros/humble LD_LIBRARY_PATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/share/gazebo/../../lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/ductrung/bumperbot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ductrung/bumperbot_ws/build/bumperbot_cpp_examples

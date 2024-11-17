@@ -1,0 +1,10 @@
+[0.055s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_mapping -- -j4 -l4
+[0.147s] Built target ament_cmake_python_copy_bumperbot_mapping
+[0.360s] running egg_info
+[0.366s] writing bumperbot_mapping.egg-info/PKG-INFO
+[0.366s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[0.366s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[0.405s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.405s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[0.466s] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[0.524s] Invoked command in '/home/ductrung/bumperbot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_mapping -- -j4 -l4

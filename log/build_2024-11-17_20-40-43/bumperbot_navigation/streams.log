@@ -1,0 +1,18 @@
+[0.134s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_navigation': /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_navigation -- -j4 -l4
+[0.224s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.224s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.224s]   contain a literal, direct call to the project() command.  Add a line of
+[0.224s]   code such as
+[0.225s] 
+[0.225s]     project(ProjectName)
+[0.225s] 
+[0.225s]   near the top of the file, but after cmake_minimum_required().
+[0.225s] 
+[0.225s]   CMake is pretending there is a "project(Project)" command on the first
+[0.225s]   line.
+[0.225s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.225s] [0m
+[0.225s] -- Configuring done
+[0.246s] -- Generating done
+[0.246s] -- Build files have been written to: /home/ductrung/bumperbot_ws/build/bumperbot_navigation
+[0.378s] Invoked command in '/home/ductrung/bumperbot_ws/build/bumperbot_navigation' returned '0': /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_navigation -- -j4 -l4

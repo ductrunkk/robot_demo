@@ -1,0 +1,2 @@
+Invoking command in '/home/ductrung/bumperbot_ws/build/turtlebot3_navigation': /usr/bin/cmake /home/ductrung/bumperbot_ws/src/turtlebot3_navigation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ductrung/bumperbot_ws/install/turtlebot3_navigation
+Invoked command in '/home/ductrung/bumperbot_ws/build/turtlebot3_navigation' returned '1': /usr/bin/cmake /home/ductrung/bumperbot_ws/src/turtlebot3_navigation -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ductrung/bumperbot_ws/install/turtlebot3_navigation

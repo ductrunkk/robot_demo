@@ -1,0 +1,117 @@
+[0.054s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ductrung/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ductrung/bumperbot_ws/install/bumperbot_firmware
+[0.288s] -- The C compiler identification is GNU 11.4.0
+[0.456s] -- The CXX compiler identification is GNU 11.4.0
+[0.465s] -- Detecting C compiler ABI info
+[0.587s] -- Detecting C compiler ABI info - done
+[0.594s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.595s] -- Detecting C compile features
+[0.598s] -- Detecting C compile features - done
+[0.598s] -- Detecting CXX compiler ABI info
+[0.720s] -- Detecting CXX compiler ABI info - done
+[0.726s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.726s] -- Detecting CXX compile features
+[0.726s] -- Detecting CXX compile features - done
+[0.732s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.893s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.048s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.128s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.147s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.160s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.186s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.305s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.314s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.513s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.556s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.615s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.618s] -- Looking for pthread.h
+[1.757s] -- Looking for pthread.h - found
+[1.757s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.904s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.907s] -- Found Threads: TRUE  
+[2.033s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[2.034s] -- Found hardware_interface: 2.43.1 (/opt/ros/humble/share/hardware_interface/cmake)
+[2.339s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[2.339s] -- Checking for module 'libserial'
+[2.376s] --   Found libserial, version 1.0.0
+[2.646s] -- Configuring done
+[2.845s] -- Generating done
+[2.853s] -- Build files have been written to: /home/ductrung/bumperbot_ws/build/bumperbot_firmware
+[2.891s] Invoked command in '/home/ductrung/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ductrung/bumperbot_ws/src/bumperbot_firmware -DCMAKE_INSTALL_PREFIX=/home/ductrung/bumperbot_ws/install/bumperbot_firmware
+[2.891s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[3.044s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[3.045s] [ 16%] [32mBuilding CXX object CMakeFiles/bumperbot_firmware.dir/src/bumperbot_interface.cpp.o[0m
+[3.147s] [ 33%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[3.342s] [ 50%] [32mBuilding CXX object CMakeFiles/simple_serial_transmitter.dir/src/simple_serial_transmitter.cpp.o[0m
+[3.559s] running egg_info
+[3.561s] creating bumperbot_firmware.egg-info
+[3.562s] writing bumperbot_firmware.egg-info/PKG-INFO
+[3.562s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[3.562s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[3.565s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[3.571s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[3.572s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[3.623s] [ 50%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[11.536s] [ 66%] [32m[1mLinking CXX shared library libbumperbot_firmware.so[0m
+[14.891s] [ 66%] Built target bumperbot_firmware
+[15.064s] [ 83%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[15.617s] [ 83%] Built target simple_serial_receiver
+[15.914s] [100%] [32m[1mLinking CXX executable simple_serial_transmitter[0m
+[16.440s] [100%] Built target simple_serial_transmitter
+[16.468s] Invoked command in '/home/ductrung/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ductrung/bumperbot_ws/build/bumperbot_firmware -- -j4 -l4
+[16.686s] Invoking command in '/home/ductrung/bumperbot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ductrung/bumperbot_ws/build/bumperbot_firmware
+[16.704s] -- Install configuration: ""
+[16.705s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[16.711s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[16.711s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[16.712s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[16.712s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[16.712s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[16.712s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[16.712s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[16.712s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[16.712s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[16.712s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[16.712s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py
+[16.849s] Listing '/home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[16.849s] Compiling '/home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py'...
+[16.849s] Compiling '/home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py'...
+[16.849s] Compiling '/home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py'...
+[16.849s] Compiling '/home/ductrung/bumperbot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py'...
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[16.849s] -- Set runtime path of "/home/ductrung/bumperbot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so" to ""
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/include/include
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[16.849s] -- Set runtime path of "/home/ductrung/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver" to ""
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[16.849s] -- Set runtime path of "/home/ductrung/bumperbot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter" to ""
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[16.849s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[16.858s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[16.858s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[16.859s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[16.859s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[16.859s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[16.859s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[16.860s] -- Installing: /home/ductrung/bumperbot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[16.862s] Invoked command in '/home/ductrung/bumperbot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ductrung/bumperbot_ws/build/bumperbot_firmware
