@@ -1,2 +1,0 @@
-# robot_demo
-clone
